@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account – RouteMap</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }
+    header {
+      background: #0B0B0E;
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p { margin-top: 0.4rem; opacity: 0.6; font-size: 0.9rem; }
+    main {
+      max-width: 680px;
+      margin: 2.5rem auto 4rem;
+      padding: 0 1.5rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0B0B0E;
+      margin: 2.5rem 0 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid #e9ecef;
+    }
+    p { margin-bottom: 0.9rem; color: #444; }
+    ul { margin: 0.5rem 0 0.9rem 1.5rem; color: #444; }
+    ul li { margin-bottom: 0.4rem; }
+    .step {
+      background: #fff;
+      border: 1px solid #e9ecef;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    .step-num {
+      background: #0B0B0E;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+    .step-body strong { display: block; margin-bottom: 0.2rem; color: #1a1a2e; }
+    .step-body p { margin: 0; }
+    .email-btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      background: #0B0B0E;
+      color: #fff;
+      padding: 0.75rem 1.75rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .email-btn:hover { background: #333; }
+    .notice {
+      background: #fff8e1;
+      border-left: 4px solid #f59e0b;
+      border-radius: 4px;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      color: #444;
+      font-size: 0.9rem;
+    }
+    a { color: #2563eb; }
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.8rem;
+      color: #999;
+      border-top: 1px solid #e9ecef;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>RouteMap</h1>
+  <p>Account &amp; Data Deletion</p>
+</header>
+
+<main>
+  <p>You can request the deletion of your RouteMap account and all associated data at any time. We will process your request within <strong>30 days</strong>.</p>
+
+  <h2>How to Request Deletion</h2>
+
+  <div class="step">
+    <div class="step-num">1</div>
+    <div class="step-body">
+      <strong>Send us an email</strong>
+      <p>Email <a href="mailto:contact@jreeve.net">contact@jreeve.net</a> with the subject line <strong>"Delete My Account"</strong>.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">2</div>
+    <div class="step-body">
+      <strong>Include your details</strong>
+      <p>Include the email address or Strava username linked to your RouteMap account so we can identify your data.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">3</div>
+    <div class="step-body">
+      <strong>We confirm and delete</strong>
+      <p>We will confirm receipt within 5 business days and complete deletion within 30 days of your request.</p>
+    </div>
+  </div>
+
+  <a class="email-btn" href="mailto:contact@jreeve.net?subject=Delete%20My%20Account">Email Us to Delete Account</a>
+
+  <h2>What Gets Deleted</h2>
+  <ul>
+    <li>Your RouteMap account and profile</li>
+    <li>Your Strava connection and any synced activity data stored by RouteMap</li>
+    <li>Any saved routes, maps, or preferences associated with your account</li>
+    <li>Any purchase entitlement records held by RouteMap</li>
+  </ul>
+
+  <h2>What May Be Retained</h2>
+  <div class="notice">
+    Some data may be retained where required by law or legitimate business purpose:
+    <ul style="margin-top:0.5rem;">
+      <li>Transaction records required for tax or financial compliance (typically 7 years)</li>
+      <li>Anonymised, aggregated usage statistics that cannot identify you</li>
+      <li>Data held directly by third-party services (Strava, RevenueCat, Apple, Google) — please refer to their respective deletion policies</li>
+    </ul>
+  </div>
+
+  <h2>Revoke Strava Access</h2>
+  <p>You can independently revoke RouteMap's access to your Strava account at any time via <a href="https://www.strava.com/settings/apps" target="_blank">Strava Settings → My Apps</a>. This does not automatically delete your RouteMap account data — please also send us a deletion request using the steps above.</p>
+
+  <h2>Contact</h2>
+  <p><strong>Jason Reeve</strong><br>Email: <a href="mailto:contact@jreeve.net">contact@jreeve.net</a></p>
+</main>
+
+<footer>
+  &copy; 2026 Jason Reeve &mdash; RouteMap (app.routemap)
+</footer>
+
+</body>
+</html>
